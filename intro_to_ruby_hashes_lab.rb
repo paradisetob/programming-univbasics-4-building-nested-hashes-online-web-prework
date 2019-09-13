@@ -34,7 +34,15 @@ def monopoly_with_third_tier
 
       }
   },
-  
+  Colorwheel=>{
+    "primarycolors"=>{
+      :red=>"darkest"
+      :yellow=>"lighest"
+    }
+    "secondarycolors"=>{
+      
+    }
+  }
 end
 
 def monopoly_with_fourth_tier
