@@ -69,6 +69,7 @@ def monopoly_with_fourth_tier
     }
   }
   Tertiary=>{
-    
+    :yellow_oranage=>"mixyo"
+    :yellow_purple=>"mixyp"
   }
 end
