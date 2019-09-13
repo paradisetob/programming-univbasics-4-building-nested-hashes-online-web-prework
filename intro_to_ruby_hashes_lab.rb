@@ -1,6 +1,10 @@
 def base_hash
-  Transportion={
-    worldwide=cars
+  Colors={
+    Rainbow=>{
+      :Purple=>"Dark",
+      :Yellow=>"light"
+
+    }
   }
   # Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
