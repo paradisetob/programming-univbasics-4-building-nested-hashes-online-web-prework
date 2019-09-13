@@ -40,14 +40,35 @@ def monopoly_with_third_tier
       :yellow=>"lighest"
     }
     "secondarycolors"=>{
-      
+      :orange=>"medium"
+      :green=>"lghtmed"
     }
   }
 end
 
 def monopoly_with_fourth_tier
-  # When you start writing the implementation for this method, copy the Hash
-  # you built in the previous method. Run the tests. They will fail, but
-  # they'll guide you in how to modify what you just did to have more
-  # complexity.
+  Colors={
+    "all colors"=>{
+      :Purple=>"Dark",
+      :Yellow=>"light"
+    },
+      "neutral"=>{
+        :white=>"lght neutral",
+        :Black=>"Dark neutral"
+
+      }
+  },
+  Colorwheel=>{
+    "primarycolors"=>{
+      :red=>"darkest"
+      :yellow=>"lighest"
+    }
+    "secondarycolors"=>{
+      :orange=>"medium"
+      :green=>"lghtmed"
+    }
+  }
+  Tertiary=>{
+    
+  }
 end
